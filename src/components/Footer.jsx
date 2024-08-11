@@ -1,5 +1,5 @@
 import React from "react";
-import logoNav from '../assets/LOGO-IMAR-SON/s2.png'
+import logoNav from '../assets/LOGO-IMAR-SON/2.png'
 import { FaFacebook, FaInstagram, FaTelegram } from 'react-icons/fa';
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -13,7 +13,7 @@ const Footer = () => {
     const info = {
         phone1: '+7 995 845 50 10',
         phone2:  '+7 995 845 10 19',
-        email: 'info@imar-group.com',
+        email: 'info@imarproject.com',
         copyright: `${new Date().getFullYear()} IMAR. ${t("footer.copyright")}`
     }
     return (
@@ -23,7 +23,7 @@ const Footer = () => {
                 <img src={logoNav}/>
             </Link>
             <ul className="flex flex-col xl:flex-row items-start justify-center mx-auto sm:mx-0 xl:space-x-12 font-normal text-sm text-alternative2 mt-6 sm:mt-0 ">
-                <li>{t("footer.phone")}: {info.phone1} <br /> {info.phone2}</li>
+                <li>{t("footer.phone")}: {info.phone1} | {info.phone2}</li>
                 <li>{t("footer.email")}: {info.email}</li>
                 <li>&copy; {info.copyright}</li>
             </ul>

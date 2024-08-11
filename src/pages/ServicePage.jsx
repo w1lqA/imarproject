@@ -4,7 +4,7 @@ import Logo1 from '../assets/icons/system1.png'
 import Logo2 from '../assets/icons/system2.png'
 import Logo3 from '../assets/icons/system3.png'
 
-import bgHeader1 from '../assets/images/bgActivities.png'
+import bgHeader1 from '../assets/images/bgSystem1.png'
 import bgHeader2 from '../assets/images/bgSystem2.png'
 import bgHeader3 from '../assets/images/bgSystem3.png'
 

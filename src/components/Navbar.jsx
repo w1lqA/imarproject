@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logoNav from '../assets/LOGO-IMAR-SON/s2.png';
+import logoNav from '../assets/LOGO-IMAR-SON/2.png';
 import { Link } from 'react-router-dom';
 import LanguageSelector from "./LanguageSelector";
 import { useTranslation } from "react-i18next";

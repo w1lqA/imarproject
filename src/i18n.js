@@ -58,13 +58,13 @@ i18n
           servicesSectionTitle: 'ENGINEERING SYSTEMS DESIGN',
           services: [
             {
-              title: 'ELECTRICAL SUPPLY'
+              title: 'ELECTRICAL POWER SYSTEMS'
             },
             {
               title: 'LOW-CURRENT SYSTEMS'
             },
             {
-              title: 'MECHANICAL SYSTEMS'
+              title: 'MECHANICAL ENGINEERING SYSTEMS'
             }
           ],
           hero: {
@@ -200,7 +200,7 @@ i18n
           },
           servicePage: [
             {
-              title: 'ELECTRICAL SUPPLY',
+              title: 'ELECTRICAL POWER SYSTEMS',
               description: [
                 '➤ ES: Electrical Supply',
                 '➤ EM: Electrical Equipment',
@@ -211,37 +211,36 @@ i18n
             {
               title: 'LOW-CURRENT SYSTEMS',
               description: [
-                '➤ APS: Automatic Fire Alarm System',
-                '➤ FPAS: Fire Protection Automation System',
-                '➤ EWS: Emergency Warning System',
-                '➤ ADS: Automatic Smoke Removal System',
-                '➤ ACS: Access Control System',
-                '➤ Video Surveillance',
-                '➤ SCS: Structured Cabling System',
-                '➤ RS: Radio System',
-                '➤ PPS: Paid Parking System',
-                '➤ SS: Security Alarm',
-                '➤ PS: Panic Alarm',
-                '➤ EC: Electrical Classification',
-                '➤ ECE: Emergency Communication System for People with Limited Mobility'
+                "APS Automatic Fire Alarm System",
+                "Smoke protection automation system",
+                "SUE System of warning and control of evacuation of people in case of fire",
+                "ACS Access Control and Management System",
+                "CCTV Video Surveillance System",
+                "SCS Structured Cabling System",
+                "SRF Radio System",
+                "SPP Automatic Parking System (paid parking system)",
+                "OS Security alarm system",
+                "TS Alarm system",
+                "ECH Electrical Chasification System",
+                "SES Emergency communication system for immobile groups of population",
               ]
             },
             {
-              title: 'MECHANICAL SYSTEMS',
+              title: 'MECHANICAL ENGINEERING SYSTEMS',
               description: [
-                '➤ HVAC: Heating, Ventilation, and Air Conditioning',
-                '➤ HVAC1: Heating and Heat Supply System',
-                '➤ HVAC2: General Ventilation System',
-                '➤ HVAC3: Air Conditioning System',
-                '➤ HVAC4: Smoke Removal System',
-                '➤ CS: Sewerage',
-                '➤ CS1: Internal Sewerage Systems',
-                '➤ CS2: Storm Sewerage',
-                '➤ CS3: Industrial Sewerage',
-                '➤ WS: Water Supply System',
-                '➤ CS: Cold Supply System',
-                '➤ AFS: Automatic Fire Extinguishing Systems',
-                '➤ IFWS: Internal Fire Water Supply'
+                "OV Heating Ventilation and Air Conditioning",
+                "OV1 Heating and Heat Supply System",
+                "OV2 System of general-exchange ventilation",
+                "OV3 Air-conditioning system",
+                "ОВ4 Smoke ventilation system",
+                "VK Sewerage",
+                "BK1 Internal sewerage systems",
+                "BK2 Storm water drainage",
+                "BK3 Industrial sewerage",
+                "WS Water Supply System",
+                "CC Refrigeration system",
+                "AUPT Automatic water fire extinguishing system",
+                "VPV Internal fire-fighting water supply system",
               ],
             },
           ],
@@ -294,7 +293,7 @@ i18n
             servicesSectionTitle: 'ПРОЕКТИРОВАНИЕ ИНЖЕНЕРНЫХ СИСТЕМ',
             services: [
               {
-                title: 'ЭЛЕКТРОСНАБЖЕНИЕ',
+                title: 'ЭЛЕКТРИЧЕСКИЕ СИЛОВЫЕ СИСТЕМЫ',
 
               },
               {
@@ -302,7 +301,7 @@ i18n
 
               },
               {
-                title: 'МЕХАНИЧЕСКИЕ СИСТЕМЫ',
+                title: 'МЕХАНИЧЕСКИЕ ИНЖЕНЕРНЫЕ СИСТЕМЫ',
 
               },
             ],
@@ -438,7 +437,7 @@ i18n
 
             servicePage: [
               {
-                title: 'ЭЛЕКТРОСНАБЖЕНИЕ',
+                title: 'ЭЛЕКТРИЧЕСКИЕ СИЛОВЫЕ СИСТЕМЫ',
                 description: [
                   '➤ ЭС: Электроснабжение',
                   '➤ ЭМ: Электрооборудование',
@@ -448,36 +447,37 @@ i18n
               },
               {
                 title: 'СЛАБОТОЧНЫЕ СИСТЕМЫ',
-                description: ['➤ АПС: Автоматическая пожарная сигнализация',
-                  '➤ АСПС: Автоматизация систем противопожарной защиты',
-                  '➤ СОУЭ: Система оповещения и управления эвакуацией при пожаре',
-                  '➤ АСДУ: Автоматизация системы дымоудаления',
-                  '➤ СКУД: Система контроля и управления доступом',
-                  '➤ Видеонаблюдение',
-                  '➤ СКС: Структурированная кабельная система',
-                  '➤ РС: Радиосистема',
-                  '➤ СПП: Система платной парковки',
-                  '➤ ОС: Охранная сигнализация',
-                  '➤ ТС: Тревожная сигнализация',
-                  '➤ ЭЧ: Электрическая классификация',
-                  '➤ ССЭ: Система экстренной связи для маломобильных групп населения'
+                description: [
+                  "АПС Система автоматической пожарной сигнализации",
+                  "АСПЗ Система автоматизации противо дымной защиты",
+                  "СОУЭ Система оповещения и управления эвакуацией людей при пожаре",
+                  "СКУД Система контроля и управления доступом",
+                  "СВН Система видеонаблюдения",
+                  "СКС Структурированная кабельная система",
+                  "СРФ Система радиофикации",
+                  "СПП Автоматическая парковочная система (система платной парковки)",
+                  "ОС Система охранной сигнализации",
+                  "ТС Система тревожной сигнализации",
+                  "ЭЧ Система электрочасофикации",
+                  "СЭС Система экстренной связи для маломобильных групп населения",
                   ],
               },
               {
-                title: 'МЕХАНИЧЕСКИЕ СИСТЕМЫ',
-                description: ['➤ HVAC: Отопление, вентиляция и кондиционирование воздуха',
-                  '➤ HVAC1: Система отопления и теплового снабжения',
-                  '➤ HVAC2: Система общеобменной вентиляции',
-                  '➤ HVAC3: Система кондиционирования воздуха',
-                  '➤ HVAC4: Система дымоудаления',
-                  '➤ КО: Канализация',
-                  '➤ КО1: Внутренние системы канализации',
-                  '➤ КО2: Ливневая канализация',
-                  '➤ КО3: Промышленная канализация',
-                  '➤ ВС: Система водоснабжения',
-                  '➤ ХС: Система холодного снабжения',
-                  '➤ АУПТ: Автоматические установки пожаротушения',
-                  '➤ ВПВ: Внутренний противопожарный водопровод'
+                title: 'МЕХАНИЧЕСКИЕ ИНЖЕНЕРНЫЕ СИСТЕМЫ',
+                description: [
+                  "ОВ Отопление вентиляция и кондиционирование",
+                  "ОВ1 Система отопления и теплоснабжения",
+                  "ОВ2 Система обще-обменной вентиляции",
+                  "ОВ3 Система кондиционирования",
+                  "ОВ4 Система противо дымной вентиляции",
+                  "ВК Канализация",
+                  "ВК1 Внутренние системы канализации",
+                  "ВК2 Ливневая канализация",
+                  "ВК3 Производственная канализация",
+                  "ВВ Система водоснабжения",
+                  "ХС Система холодоснабжения",
+                  "АУПТ Автоматические установки водяного пожаротушения",
+                  "ВПВ Внутренний противопожарный водопровод",
                 ]
               },
             ]
