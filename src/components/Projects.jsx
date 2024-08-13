@@ -8,7 +8,8 @@ import Image5 from '../assets/images/projectImages/p5_1.png'
 import Image6 from '../assets/images/projectImages/p6_2.jpeg'
 import Image7 from '../assets/images/projectImages/p7_1.jpg'
 import Image8 from '../assets/images/projectImages/p8_1.jpg'
-
+import Image9 from '../assets/images/projectImages/p9_1.jpg'
+import Image10 from '../assets/images/projectImages/p10_1.jpg'
 
 
 import ProjectCard from "./ProjectCard";
@@ -55,6 +56,16 @@ const Projects = () => {
         {
             image: Image8,
             title: t("projects.project8"),
+            description: t("projects.description1"),
+        },
+        {
+            image: Image9,
+            title: t("projects.project9"),
+            description: t("projects.description1"),
+        },
+        {
+            image: Image10,
+            title: t("projects.project10"),
             description: t("projects.description1"),
         },
     ];

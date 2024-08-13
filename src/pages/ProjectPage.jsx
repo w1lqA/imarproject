@@ -42,6 +42,15 @@ import Image8_1 from '../assets/images/projectImages/p8_1.jpg'
 import Image8_2 from '../assets/images/projectImages/p8_2.jpg'
 import Image8_3 from '../assets/images/projectImages/p8_3.jpg'
 
+import Image9_1 from '../assets/images/projectImages/p9_1.jpg'
+import Image9_2 from '../assets/images/projectImages/p9_2.jpg'
+import Image9_3 from '../assets/images/projectImages/p9_3.jpg'
+
+import Image10_1 from '../assets/images/projectImages/p10_1.jpg'
+import Image10_2 from '../assets/images/projectImages/p10_2.jpg'
+import Image10_3 from '../assets/images/projectImages/p10_3.jpg'
+
+
 
 import ProjectInfo from '../components/ProjectInfo';
 import { useTranslation } from 'react-i18next';
@@ -59,10 +68,13 @@ const ProjectPage = ({page}) => {
         [Image6_1, Image6_2, Image6_3],
         [Image7_1, Image7_2, Image7_3],
         [Image8_1, Image8_2, Image8_3],
+        [Image9_1, Image9_2, Image9_3],
+        [Image10_1, Image10_2, Image10_3],
     ]
   return (
-    <div className='bg-gradient-to-b from-main2 to-main'>
-        <header className='relative flex justify-center py-24 bg-center bg-cover' style={{backgroundImage: `url(${bgHeader})`}} >
+    <div>
+        <header className='relative flex justify-center py-24 bg-center bg-cover'>
+            <img src={images[pageID][1]} className='w-full h-full object-cover absolute -z-10 animate-pulse2 inset-0'/>
             <div className='backdrop-blur-sm bg-black bg-opacity-50 absolute inset-0' aria-hidden="true"></div>
             <div class="max-w-xs sm:max-w-screen-sm lg:max-w-screen-lg z-10 flex flex-col lg:flex-row justify-between w-full space-y-6 lg:space-y-0 items-start">
                 <div>
@@ -84,12 +96,14 @@ const ProjectPage = ({page}) => {
                 </ul>
             </div>
         </header>
+        <div  className='bg-gradient-to-b from-main2 to-main'>
+            <ProjectInfo description={projectPage.projectInfo[pageID].description}
+                images={images[pageID]}/>
+            <Projects/>
+            <Contacts title={t("contacts.title1")} emailType={'IMAR CONTACT'}/>
+            <Footer/>
+        </div>
 
-        <ProjectInfo description={projectPage.projectInfo[pageID].description}
-            images={images[pageID]}/>
-        <Projects/>
-        <Contacts title={t("contacts.title1")} emailType={'IMAR CONTACT'}/>
-        <Footer/>
     </div>
   );
 };
