@@ -98,7 +98,7 @@ i18n
             title2: 'Career at IMAR',
             location: ['109147, Moscow, Tagansky Municipal District, 20,', 'bldg. 8, Marksistskaya St., premise 1/1'],
             phone: '+7 (991) 773-48-28',
-            email: 'info@imar-group.com'
+            email: 'info@imarproject.com'
           },
           contactForm: {
             errorMessages: {
@@ -356,7 +356,7 @@ i18n
               title2: 'Карьера в IMAR',
               location: ['109147, г. Москва, вн.тер.г. Муниципальный Округ' ,'Таганский, ул Марксистская, д. 20, стр. 8, помещ. 1/1'],
               phone: '+7 (991) 773-48-28',
-              email: 'info@imar-group.com',
+              email: 'info@imarproject.com',
             },
             contactForm: {
               errorMessages: {
