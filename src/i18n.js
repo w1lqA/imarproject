@@ -232,6 +232,69 @@ i18n
                   'The total area of buildings is 155,844 m². The complex includes: 8 buildings with 17-22 floors, 1,193 apartments, two-level underground parking for 896 cars. The quarter will house 26 commercial premises: shops, restaurants, a fitness center and a preschool institution.'
                 ]
               },
+              {
+                title: ['OSTROV RESIDENTIAL COMPLEX', 'BLOCK №5'],
+                headerInfo: ['2022–2024', 'Construction and installation works', 'LMS Group'],
+                description: [
+                  'Multifunctional residential development, Block №5 of the "Ostrov" residential complex, buildings 1–8 in Moscow.',
+                  'The general contractor is responsible for developing working documentation, BIM modeling, performing turnkey construction and finishing works including public areas and site landscaping.',
+                  'Total building area is 155,844 m². The complex includes 8 buildings ranging from 17 to 22 floors, 1,193 apartments, and a two-level underground parking for 896 cars. The block will feature 26 commercial premises: shops, restaurants, a fitness and wellness center, and a preschool institution.'
+                ]
+              },
+              {
+                title: ['PERM STATE', 'ART GALLERY'],
+                headerInfo: ['2022–2024', 'Construction works', 'LMS Group'],
+                description: [
+                  'Building of the Perm State Art Gallery in Perm.',
+                  'The architectural complex combines preserved historical buildings with a new structure stylized in the traditional architecture of the Perm region. Total building area – 21,639 m² on a 1.9 ha site.',
+                  'The project includes exhibition halls, administrative areas, an educational center, restoration workshops, a café, and other functional zones. Special attention is paid to integrating the new building with its historical surroundings.'
+                ]
+              },
+              {
+                title: ['EDUCATIONAL COMPLEX', '“TOCHKA BUDUSHCHEGO”'],
+                headerInfo: ['2023–2025', 'Integrated construction', 'LMS Group'],
+                description: [
+                  'Educational complex in Zhatai, Sakha Republic (Yakutia).',
+                  'The project includes 7 academic buildings, a residential house for teachers and foster families, a heated parking facility with a transport terminal, and sports facilities. The total site area is 263,397 m².',
+                  'The complex is supported by the “New Home” charitable foundation and is designed for an innovative educational process adapted to the Arctic environment.'
+                ]
+              },
+              {
+                title: ['RECONSTRUCTION OF', 'COKE BATTERY №2'],
+                headerInfo: ['2022–2025', 'Industrial construction', 'EVRAZ ZSMK'],
+                description: [
+                  'Reconstruction of the coke battery complex in Novokuznetsk.',
+                  'Construction of a new coke battery with a capacity of 705,000 tons/year, consisting of 77 ovens, a dust-free coke discharge system, and chemical trapping systems.',
+                  'The project includes a full cycle of works from dismantling the old facilities to commissioning new ones, significantly improving environmental safety and production efficiency.'
+                ]
+              },
+              {
+                title: ['SULFUR-GAS', 'PURIFICATION FACILITIES'],
+                headerInfo: ['2024–2026', 'Environmental project', 'EVRAZ ZSMK'],
+                description: [
+                  'Exhaust gas purification system for the sinter plant in Novokuznetsk.',
+                  'The project includes the construction of an exhaust tower, an absorber building, a limestone solution preparation unit, and the installation of all technological equipment.',
+                  'The wet limestone scrubbing method will significantly reduce sulfur dioxide emissions, improving the region’s environmental situation.'
+                ]
+              },
+              {
+                title: ['ROLLED STEEL', 'WAREHOUSE'],
+                headerInfo: ['2024–2025', 'Industrial construction', 'Severstal'],
+                description: [
+                  'Steel warehouse on the territory of the hot rolling mill 2000 in Cherepovets.',
+                  'Construction of a new warehouse complex as part of the capacity expansion program of the rolling mill.',
+                  'The project provides for the creation of modern conditions for the storage and logistics of metal products in accordance with technological requirements.'
+                ]
+              },
+              {
+                title: ['RECONSTRUCTION OF', 'REHEATING FURNACE №3'],
+                headerInfo: ['2024–2025', 'Industrial construction', 'Severstal'],
+                description: [
+                  'Reconstruction of the walking beam furnace in Cherepovets.',
+                  'Complete replacement of two existing furnaces with new ones with a capacity of 400 tons/hour each.',
+                  'The project includes a full cycle from design and dismantling to hot commissioning of the new equipment.'
+                ]
+              }
 
             ]
           },
